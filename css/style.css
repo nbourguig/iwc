@@ -107,8 +107,8 @@ input:invalid, textarea:invalid {
 .no-boxshadow input:invalid,
 .no-boxshadow textarea:invalid { background-color: #f0dddd; }
 
-::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
-::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+::-moz-selection{ background: #a7cc5c; color:#fff; text-shadow: none; }
+::selection { background:#a7cc5c; color:#fff; text-shadow: none; }
 
 a:link { -webkit-tap-highlight-color: #FF5E99; }
 
@@ -134,10 +134,21 @@ button {  width: auto; overflow: visible; }
 
 h1, h2, h3, h4, h5 { font-weight: normal; text-transform: uppercase; }
 
-h1, em, #body h3, #disqus_thread h3, h4 { font-family: "Yanone Kaffeesatz", Arial, sans-serif; text-shadow: 1px 1px 0px black, 2px 2px 0px #476871, 3px 3px 0px #476871, 4px 4px 0px #476871, 5px 5px 0px #476871, 6px 6px 0px #476871, 7px 7px 0px #476871; }
+h1, em, #body h3, #disqus_thread h3, h4 { font-family: "Lobster", Arial, sans-serif;
+                                          text-shadow: 1px 1px 0px black,
+                                              2px 2px 0px #292929,
+                                              3px 3px 0px #292929,
+                                              4px 4px 0px #292929,
+                                              5px 5px 0px #292929,
+                                              6px 6px 0px #292929,
+                                              7px 7px 0px #292929; color:#AFD455; }
+
+h1 { font-size: 45px; line-height: 1.5; text-align: center; cursor: crosshair; }
+h1:hover { color: #E7FFAA; }
+
 
 html[lang='en'] h1, html[lang='en'] em, html[lang='en'] #body h3, html[lang='en'] #disqus_thread h3, html[lang='en'] h4, html[lang='en-us'] h1, html[lang='en-us'] em, html[lang='en-us'] #body h3, html[lang='en-us'] #disqus_thread h3, html[lang='en-us'] h4 { 
-    font-family: 'Yanone Kaffeesatz', arial, serif;
+    font-family: 'Lobster', arial, serif;
 }
 
 
@@ -155,15 +166,13 @@ html[lang="ru"]    p.lang a[lang="ru"] {
     display : none;
 }
 
-h1 i { font-family: arial, helvetica, sans-serif; font-style: normal; }
+h1 i { font-family: arial, helvetica, sans-serif; font-style: normal; font-size: 20px}
 
 h4, #body h4 em { font-size: 25px; margin: 25px 0 10px;}
 h4 em { font-style: normal; }
 
-h1 { font-size: 6em; line-height: 1.5; text-align: center; cursor: default; }
-h1:hover { color: #e16734; }
 
-body { background: #232927; color: #e3d7bf; text-align: center; font: 300 12px/18px "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue", sans-serif; }
+body { background: #292929; color: #e3d7bf; text-align: center; font: 300 12px/18px "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue", sans-serif; }
 
 a, a:visited { color: #e3d7bf; text-decoration: none; }
 #body ul a, a:hover, a:focus, #body p a, .disqus-wrapper a, p.lang a { color: #e16734; }
@@ -243,6 +252,47 @@ a[href="#dsq-content"] { color: inherit; text-shadow: 1px 1px 0 black; }
 #disqus_thread .dsq-comment-body { font-size: 1.2em; }
 #disqus_thread li:after { border: 0; }
 #disqus_thread h4 { font-family: inherit; text-shadow: none; font-size: 1em; }
+
+
+/** IWC  COMING SOON **/
+.comingsoon {
+    width:824px;
+    height:535px;
+    position:absolute;
+    padding-top: 15px;
+    background-image: url('/images/cs-bg.png');
+    background-repeat: no-repeat;
+}
+
+.comingsoon h1{margin-top: 135px;}
+
+.comingsoon .cs-bottom{
+    color: #595959;
+    font-family: Tahoma,Arial;
+    font-size: 9px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 658px;
+    margin-top: 118px;
+    width: 180px;
+}
+.tweet {margin-left: 177px;}
+
+.tweet-imgs {
+    float:left;
+}
+.tweet-txt {
+    text-align: left;
+    color: #A7CC5C;
+    float: left;
+    font-family: Tahoma,arial;
+    font-size: 12px;
+    height: 20px;
+    overflow: hidden;
+    width: 605px;
+}
+.clear {clear:both;}
+
 
 @media print {
     * { background: transparent !important; color: #444 !important; text-shadow: none !important; }
