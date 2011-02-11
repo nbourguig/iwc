@@ -264,7 +264,7 @@ a[href="#dsq-content"] { color: inherit; text-shadow: 1px 1px 0 black; }
     background-repeat: no-repeat;
 }
 
-.comingsoon h1{margin-top: 135px;}
+.comingsoon h1{margin-top: 135px; width: 688px;margin-left: 95px; }
 
 .comingsoon .cs-bottom{
     color: #595959;
@@ -275,6 +275,7 @@ a[href="#dsq-content"] { color: inherit; text-shadow: 1px 1px 0 black; }
     margin-left: 658px;
     margin-top: 118px;
     width: 180px;
+    text-align: center;
 }
 .tweet {margin-left: 177px;}
 
